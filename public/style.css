@@ -429,7 +429,7 @@ about {
   cursor: pointer;
 }
 .cross svg {
-  color: white;
+  color: black;
   width: 2.5vw;
   height: auto;
   margin-top: 10px;
@@ -450,13 +450,13 @@ about {
   flex-direction: column;
 }
 #server-logo-about {
-  height: 80px;
-  width: 80px;
-  filter: brightness(0) invert(1);
+  
+  width: 60%;
+  
 }
 
 .logo_data > p {
-  color: white;
+  color: black;
   font-size: 13px;
   font-weight: 600;
 }
@@ -481,12 +481,12 @@ footer h6,
 .abouticons {
   display: inline;
   font-size: 14px;
-  color: white;
+  color: black;
 }
 .abouticons svg {
   width: 14px;
   margin: 0px 2px 5px 2px;
-  color: white;
+  color: black;
 }
 
 canvas {
