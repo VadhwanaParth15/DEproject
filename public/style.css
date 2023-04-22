@@ -1,6 +1,6 @@
 :root {
   --primary-color: #fff;
-  color-scheme: light dark;
+  
 }
 
 body {
@@ -11,10 +11,7 @@ body {
   padding: 0;
 }
 
-body.dark-theme {
-  --text-color: #fff;
-  --bg-color: rgba(14, 13, 13, 0.819);
-}
+
 
 body {
   height: 100%;
@@ -175,7 +172,7 @@ input[type="checkbox"] {
 }
 
 .dialog .bg-overlay {
-  background: rgba(0, 0, 0, 0.61);
+  background: rgba(255, 255, 255, 0.61);
   z-index: 10;
   transition: opacity 300ms;
   will-change: opacity;
@@ -330,14 +327,11 @@ button::-moz-focus-inner {
 
 @media (prefers-color-scheme: dark) {
   body {
-    --text-color: #fff;
-    --bg-color: rgba(13, 13, 13, 0.819);
-  }
-
-  body.light-theme {
     --text-color: #000;
     --bg-color: #fff;
   }
+
+  
 }
 
 @media only screen and (min-width: 315px) and (max-width: 550px) {
