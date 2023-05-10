@@ -1,14 +1,14 @@
 version: "3.8"
 services:
     nodeserver:
-        image: aman162000/node
+        image: parthvadhwana/node
         build:
             context: ./
             
         ports:
             - "3000:3000"
     nginx:
-        image: aman162000/sendbit-nginx
+        image: parthvadhwana/deskshare-nginx
         restart: always
         build:
             context: ./nginx
