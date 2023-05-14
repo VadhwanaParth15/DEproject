@@ -397,7 +397,7 @@ class ReceiveDialog extends Dialog {
 
 }
 
-class SendBit {
+class DeskShare {
   constructor() {
     const server = new ServerConnection();
     const peers = new PeersManager(server);
@@ -410,7 +410,7 @@ class SendBit {
   }
 }
 
-const sendbit = new SendBit();
+const deskshare = new DeskShare();
 
 RTCPeer.config = {
   sdpSemantics: "unified-plan",
