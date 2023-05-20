@@ -74,10 +74,14 @@ input[type="file"] {
 input[type="checkbox"] {
   display: none;
 }
-
+#log{
+  text-decoration: none;
+  color: #fff;
+}
 .navicons {
   font-size: 20px;
   padding: 10px;
+  color: #fff;
 }
 
 #displayName #infoicon #modeicon,

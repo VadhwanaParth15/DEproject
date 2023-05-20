@@ -7,20 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>WebRTC PeerJs Demo</title>
+    <title>DeskShare/screenshare</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6e6a4a218d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- As a heading -->
+    <main class="container">
     <nav class="d-flex align-items-sm-center">
       
         <!-- <img class="logo" src="./assets/logo.png" alt="logo" id="navlogo" /> -->
-        <a href="index.html"> <h2 class="logo"><span>DeskShare</span></h2></a>
+        <a href="index.html" id="log"> <h2 class="logo"><span>DeskShare</span></h2></a>
       <div class="icons">
         <a class="btnicon">
           <i class="fa fa-info-circle navicons" id="infoicon"></i>
@@ -110,8 +112,11 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-
+    </main>
     <!-- check https://peerjs.com/ for latest CDN-->
+    <script src="scripts/script.js"></script>
+  <script src="scripts/themes.js"></script>
+  <script src="scripts/elements.js"></script>
     <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
     <script src="./scripts/screenshare.js"></script>
 </body>
