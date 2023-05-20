@@ -38,6 +38,7 @@ body {
   width: 180px;
   height: auto;
   object-fit: contain;
+  text-decoration: none;
 }
 
 .icons {
